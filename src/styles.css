@@ -1,13 +1,17 @@
 body {
-  background-color: #f9f7fe;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(244, 186, 186) 0%,
+    rgb(194, 157, 231) 90%
+  );
   font-family: "Lato", sans-serif;
 }
 
 .app {
-  background-color: palegoldenrod;
+  background-color: #a3fe3f;
   max-width: 600px;
   margin: 50px auto;
-  padding: 40px;
+  padding: 25px;
   box-shadow: #dfd3c3;
   border-radius: 16px;
 }
@@ -15,27 +19,47 @@ body {
 a {
   color: lightcoral;
 }
+
+.icon {
+  display: flex;
+  position: relative;
+  top: -100px;
+  left: 400px;
+  font-size: 60px;
+  font-weight: bold;
+}
 .search-form-input {
   background-color: #f9f7fe;
   border: none;
+
   border-radius: 6px;
   width: 75%;
-  padding: 17px 18px;
+  padding: 15px 18px;
   font-size: 16px;
 }
 
 .search-form-button {
   background-color: lightcoral;
   border: none;
-  padding: 16px 27px;
+  padding: 14px 27px;
   border-radius: 6px;
   color: white;
   font-size: 18px;
   margin-left: 8px;
 }
+
 footer {
-  margin: 6px;
-  font-size: 15px;
+  border-top: 1px solid palegoldenrod;
+
+  padding: 25px;
+  margin-bottom: -20px;
+  font-size: 13px;
   text-align: center;
   color: black;
+}
+h1 {
+  color: olive;
+}
+strong {
+  color: palevioletred;
 }
