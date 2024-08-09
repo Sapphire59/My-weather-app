@@ -15,17 +15,17 @@ function refreshWeather(response) {
 
   let iconElement = document.querySelector("#app-icon");
 
-  iconElement.innerHTML = `<img
-      src="${response.data.condition.icon_url}"
-      class ="app-icon"
-    />
-  `;
   timeElement.innerHTML = formatDate(date);
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(temperature);
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   descriptionElement.innerHTML = response.data.condition.description;
   windSpeedElement.innerHTML = `${response.data.wind.speed} mph`;
+  iconElement.innerHTML = `<img
+      src="${response.data.condition.icon_url}"
+      class ="app-icon"
+    />
+  `;
 }
 
 function formatDate(date) {
