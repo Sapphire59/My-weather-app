@@ -11,8 +11,8 @@ body {
 .app {
   background-color: #dacbf6;
   max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
+  margin: 40px auto;
+  padding: 15px;
   box-shadow: #dfd3c3;
   border-radius: 16px;
   border: 4px solid#dacbf6;
@@ -28,6 +28,14 @@ a {
   top: -105px;
   left: 400px;
   font-size: 55px;
+  font-weight: bold;
+}
+.unit {
+  display: flex;
+  position: relative;
+  top: -235px;
+  left: 550px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -60,8 +68,8 @@ a {
 }
 
 footer {
-  padding: 25px;
-  margin-bottom: -20px;
+  padding: -60px;
+  margin: 5px;
   font-size: 13px;
   text-align: center;
   color: black;
@@ -73,5 +81,5 @@ strong {
   color: #27296d;
 }
 p {
-  color: gray;
+  color: #393e46;
 }
