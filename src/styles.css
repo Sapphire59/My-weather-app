@@ -1,23 +1,25 @@
 body {
   background: radial-gradient(
     circle at 10% 20%,
-    rgb(244, 186, 186) 0%,
-    rgb(194, 157, 231) 90%
+    rgb(186, 190, 245) 0%,
+    rgb(192, 192, 245) 33.1%,
+    rgb(218, 203, 246) 90%
   );
   font-family: "Lato", sans-serif;
 }
 
 .app {
-  background-color: #a3fe3f;
+  background-color: #dacbf6;
   max-width: 600px;
   margin: 50px auto;
   padding: 25px;
   box-shadow: #dfd3c3;
   border-radius: 16px;
+  border: 4px solid#dacbf6;
 }
 
 a {
-  color: lightcoral;
+  color: #27296d;
 }
 
 .icon {
@@ -29,7 +31,7 @@ a {
   font-weight: bold;
 }
 .search-form-input {
-  background-color: #f9f7fe;
+  background-color: #bcbff5;
   border: none;
 
   border-radius: 6px;
@@ -39,7 +41,7 @@ a {
 }
 
 .search-form-button {
-  background-color: lightcoral;
+  background-color: #27296d;
   border: none;
   padding: 14px 27px;
   border-radius: 6px;
@@ -49,8 +51,6 @@ a {
 }
 
 footer {
-  border-top: 1px solid palegoldenrod;
-
   padding: 25px;
   margin-bottom: -20px;
   font-size: 13px;
@@ -58,8 +58,8 @@ footer {
   color: black;
 }
 h1 {
-  color: olive;
+  color: #27296d;
 }
 strong {
-  color: palevioletred;
+  color: #27296d;
 }
