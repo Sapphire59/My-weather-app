@@ -22,18 +22,16 @@ a {
   color: #27296d;
 }
 
-.icon {
+.weather-icon {
   display: flex;
-  position: relative;
-  top: -105px;
-  left: 400px;
-  font-size: 55px;
-  font-weight: bold;
+  position: sticky;
+  top: 100px;
+  left: -800px;
 }
 .unit {
   display: flex;
   position: relative;
-  top: -235px;
+  top: -180px;
   left: 550px;
   font-size: 30px;
   font-weight: bold;
@@ -42,7 +40,7 @@ a {
 .temp {
   display: flex;
   position: relative;
-  top: -173px;
+  top: -120px;
   left: 480px;
   font-size: 55px;
   font-weight: bold;
