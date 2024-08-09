@@ -5,9 +5,28 @@ body {
 
 .app {
   background-color: palegoldenrod;
-  max-width: 750px;
+  max-width: 600px;
   margin: 50px auto;
   padding: 40px;
   box-shadow: #dfd3c3;
   border-radius: 16px;
+}
+
+.search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 75%;
+  padding: 17px 18px;
+  font-size: 16px;
+}
+
+.search-form-button {
+  background-color: lightblue;
+  border: none;
+  padding: 16px 27px;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  margin-left: 8px;
 }
