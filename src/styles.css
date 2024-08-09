@@ -12,6 +12,9 @@ body {
   border-radius: 16px;
 }
 
+a {
+  color: lightcoral;
+}
 .search-form-input {
   background-color: #f9f7fe;
   border: none;
@@ -22,11 +25,17 @@ body {
 }
 
 .search-form-button {
-  background-color: lightblue;
+  background-color: lightcoral;
   border: none;
   padding: 16px 27px;
   border-radius: 6px;
   color: white;
   font-size: 18px;
   margin-left: 8px;
+}
+footer {
+  margin: 6px;
+  font-size: 15px;
+  text-align: center;
+  color: black;
 }
