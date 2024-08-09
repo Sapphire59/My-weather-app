@@ -33,7 +33,6 @@ a {
 .search-form-input {
   background-color: #bcbff5;
   border: none;
-
   border-radius: 6px;
   width: 75%;
   padding: 15px 18px;
@@ -62,4 +61,7 @@ h1 {
 }
 strong {
   color: #27296d;
+}
+p {
+  color: gray;
 }
