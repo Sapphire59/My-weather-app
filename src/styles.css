@@ -8,30 +8,30 @@ body {
 }
 
 .app {
-  background-color: #eeeeee;
+  background-color: #c1c0b9;
   max-width: 570px;
   height: 480px;
   margin: 40px auto;
   padding: 10px;
   box-shadow: #a696c8;
   border-radius: 16px;
-  border: 4px solid #eeeeee;
+  border: 4px solid #c1c0b9;
 }
 
 a {
-  color: #777bf5;
+  color: #005792;
 }
 
-.weather-icon {
+.icon {
   display: flex;
-  position: sticky;
-  top: -100px;
-  left: 300px;
+  position: relative;
+  top: 200px;
+  left: -600px;
 }
 .unit {
   display: flex;
   position: relative;
-  top: -190px;
+  top: -210px;
   left: 520px;
   font-size: 30px;
   font-weight: bold;
@@ -40,7 +40,7 @@ a {
 .temp {
   display: flex;
   position: relative;
-  top: -120px;
+  top: -140px;
   left: 450px;
   font-size: 55px;
   font-weight: bold;
@@ -73,10 +73,10 @@ footer {
   color: black;
 }
 h1 {
-  color: #777bf5;
+  color: #005792;
 }
 strong {
-  color: #b78efc;
+  color: #005792;
 }
 p {
   color: #393e46;
