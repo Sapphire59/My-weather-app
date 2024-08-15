@@ -25,13 +25,13 @@ a {
 .app-icon {
   display: flex;
   position: relative;
-  top: -50px;
+  top: -100px;
   left: 350px;
 }
 .unit {
   display: flex;
   position: relative;
-  top: -210px;
+  top: -260px;
   left: 520px;
   font-size: 30px;
   font-weight: bold;
@@ -40,7 +40,7 @@ a {
 .temp {
   display: flex;
   position: relative;
-  top: -140px;
+  top: -185px;
   left: 450px;
   font-size: 55px;
   font-weight: bold;
